@@ -1,8 +1,8 @@
 const express = require('express');
 
-const app = express();
+const api_app = express();
 
-app.use ("/api/posts", (req, res, next) => {
+api_app.use ("/api/posts", (req, res, next) => {
     const posts = [
         {
             id: "001", 
@@ -22,4 +22,4 @@ app.use ("/api/posts", (req, res, next) => {
 
 });
 
-module.exports = api-app;
+module.exports = api_app;
